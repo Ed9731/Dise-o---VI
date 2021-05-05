@@ -1,0 +1,27 @@
+
+#titulo {
+   background-color: red;
+   font-size: 50px;
+   text-align-last: center;
+   color: white;
+}
+
+#etiqueta{
+    font-size: 25px; 
+   color:red;
+}
+
+img{
+    float: right;
+}
+
+#caja4 {
+    background-color: rgb(255, 72, 0);
+    font-size: 40px;
+}
+
+#fuente{
+    float: right;
+    font-size: 25px;
+    background-color: khaki;
+}
