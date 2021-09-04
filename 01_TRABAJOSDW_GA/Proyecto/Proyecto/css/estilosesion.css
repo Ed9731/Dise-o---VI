@@ -1,0 +1,24 @@
+
+.btn-dark:hover{
+    background-color: #FD0054;
+}
+.btn-light:hover{
+    background-color: #A80038;
+   
+}
+footer{
+    background-color: #FD0054;
+    color:#FBF9FA;
+}
+.final{
+    background-color: #ffffff;
+    color: #FBF9FA;
+}
+
+#cabtext{
+    color: black;
+}
+
+#navbarDropdown{
+    color: black;
+}

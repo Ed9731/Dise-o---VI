@@ -1,0 +1,110 @@
+/*p{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate
+}
+
+/* alternativa
+    p{
+        animation: 3s infinite alternative slidein;
+    }
+
+@keyframes slidein{
+    0%{
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    30%{
+        background-color: red;
+    }
+
+    60%{
+        background-color: royalblue;
+    }
+    
+    90%{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+*/
+
+body{
+    overflow: hidden;
+    background-image: url(../img/mapa.png);
+    background-repeat: no-repeat;
+}
+
+
+div{
+    background: #8e44ad;
+    color: white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation-name: animar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animar{
+    0%{
+        left: 2rem;
+        top: 2rem;
+    }
+    10%{
+        left: 13rem;
+        top: 2rem;
+        color: #9b59b6;
+    }
+
+    20%{
+        left: 13rem;
+        top: 12rem;
+        color: #9b59b6;
+    }
+    30%{
+        top: 12rem;
+        left: 35rem;
+        color: white;
+    }
+    40%{
+        top: 2rem;
+        left: 35rem;
+        color: white;
+    }
+    50%{
+        top: 2rem;
+        left: 28rem;
+        color: white;
+    }
+    60%{
+        top: 12rem;
+        left: 28rem;
+        color: #9b59b6;
+    }
+    70%{
+        top: 12rem;
+        left: 18rem;
+        color: #9b59b6;
+    }
+    80%{
+        top: 19rem;
+        left: 18rem;
+        color: #9b59b6;
+    }
+    90%{
+        top: 19rem;
+        left: 23rem;
+        color: #9b59b6;
+    }
+    100%{
+        left: 23rem;
+        top: 23rem;
+    }
+
+
+}
+

@@ -1,0 +1,48 @@
+h3{
+    width: 252px;
+    color: white;
+}
+
+span {
+    width: 100px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+    font-family: calibri;
+}
+
+.nom{
+    background-color:rgb(209, 181, 181); 
+    width: 220px;   
+}
+
+.titu{
+    background-color:rgb(178, 198, 185);
+    width: 220px;
+}
+
+li{
+    list-style: none;
+    margin-top: 1px;
+}
+
+ul{
+    margin: 0px;
+    padding-left: 0px;
+}
+h3{
+    font-family: calibri;
+    font-size: 25px;
+    margin: 5px;
+}
+body{
+    font-family: calibri;
+}
+
+#contenedor{
+    width: 720px;
+    margin: auto;
+    background-color: cadetblue;
+    padding-left: 10px;
+    font-family: calibri;
+}
